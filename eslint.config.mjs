@@ -16,6 +16,16 @@ export default [
       '.DS_Store',
     ],
   },
+  {
+    overrides: [
+      {
+        files: ['tests/**/*'],
+        env: {
+          jest: true,
+        },
+      },
+    ],
+  },
   pluginJs.configs.recommended,
   prettierConfig,
   {
